@@ -5,10 +5,18 @@
 
   <body>
         <input type="number" placeholder="Enter Amount" name="amount" min="0" required="required" id="amount">
-        <select required name="from_c" id="from_c">
-        </select>
+        <!-- <select required name="from_c" id="from_c">
+        </select> -->
+
+      <div class="container country-container">
+        <span class="flag" id="flag"></span>
+        <select class="countries" name="from_c" id="from_c"></select>
       </div>
-      <div class="currency-div">
+      <div class="container country-container">
+        <span class="flag" id="flag2"></span>
+        <select class="countries" name="to_c" id="to_c"></select>
+      </div>
+      <!-- <div class="currency-div">
         <label>Currency</label>
         <select required name="to_c" id="to_c">
           <option value="ARS" data-thumbnail="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/LetterA.svg/2000px-LetterA.svg.png">Argentine Peso</option>
@@ -165,7 +173,7 @@
           <option value="YER">Yemeni Rial</option>
           <option value="ZMK">Zambian Kwacha</option>
         </select>
-      </div>
+      </div> -->
       
       <button  onclick="convert()"  name="convert"class="convert-btn">
         <span class="front">Convert</span>
