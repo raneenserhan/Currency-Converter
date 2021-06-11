@@ -1,0 +1,8 @@
+{
+
+          "ARS": "Argentine Peso"
+          "AMD": "Armenian Dram
+          "AWG": "Aruban Florin"
+          "AUD": "Australian Dollar"
+       
+}
