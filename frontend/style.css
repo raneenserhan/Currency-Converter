@@ -1,32 +1,114 @@
 body {
   background: #dedede;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  background-color: white;
 }
 
-blockquote {
-  border-left: 4px solid;
-  margin: 10px 0 25px;
-  padding: 10px 10px 10px 20px;
-  color: #555;
+#logo-img{
+  width: 45px;
+  height: 45px;
+
 }
 
-.container {
-  padding: 10px 30px;
-}
+h1{
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  margin-top: 0%;
+  margin-left: 30%;
 
-.country-container {
-  display: flex;
 }
 
 .flag {
-  background-size: 50px 30px;
-  height: 30px;
-  width: 50px;
+  background-size: 40px 25px;
+  height: 25px;
+  width: 37px;
   display: inline-block;
-  margin: 0 10px 0 0;
-  flex: 0 0 50px;
+  border-radius: 5px ;
+  margin-top: 5px;
+  margin-right: 5px;
+  
+}
+#header{
+  display: flex; 
+  margin-left:20px;
+  margin-top: 20px;
 }
 
-.countries {
-  width: 90%;
-  max-width: 400px;
+.form-div{
+  border-radius: 25px;
+  background-color: white;
+  height: 280px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 10px;
+  border-color: white;
+  box-shadow: 10px 10px #DCDFE3;
+
 }
+
+#lables-div{
+  display: flex;
+  margin-top: 20px;
+}
+
+.lables{
+  margin-right: 250px;
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  color: #283e3e;
+  font-family: cursive;
+
+}
+
+#inputs{
+  display: flex;
+}
+.inputs{
+  width: 280px;
+  height: 35px;
+  cursor:pointer;
+  color: rgb(68, 67, 67);
+  border-radius: 10px ;
+  margin-right: 30px;
+}
+.inputs:hover{
+  border: 2px solid #3396ff;
+}
+
+#switch-img{
+margin-right: 22px;
+}
+
+#btn-div{
+  margin-left: 85%;
+  margin-top: 20px;
+}
+.btns{
+  background-color: #0071EB;
+  border-radius: 5px ;
+  border-color: #0071EB;
+  width: 100px;
+  height: 40px;
+  color: white;
+  cursor:pointer;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.btns:hover{
+  background-color: #3396ff !important;
+  border-color: #3396ff;
+}
+
+ #result{
+  color: #3396ff;
+  font-size: xx-large;
+  margin-left: 20px;
+  font-family: cursive;
+}
+
