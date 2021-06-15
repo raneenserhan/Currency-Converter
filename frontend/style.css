@@ -53,6 +53,7 @@ h1{
 #lables-div{
   display: flex;
   margin-top: 20px;
+  margin-left: 10px;
 }
 
 .lables{
@@ -65,8 +66,9 @@ h1{
 
 }
 
-#inputs{
+#inputs-div{
   display: flex;
+  margin-left: 20px;
 }
 .inputs{
   width: 280px;

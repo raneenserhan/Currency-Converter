@@ -19,11 +19,11 @@
         <label  class="lables">To</label>
       </div><br>
 
-      <div id="inputs">
+      <div id="inputs-div">
         <input class="inputs" type="number" placeholder="Enter Amount" name="amount" min="0" >
         <span class="flag" id="flag"></span>
         <select class="countries inputs" name="from_c"  id="from_c" ></select>
-        <img src="images/switch.png" id="switch-img">
+        <img src="images/switch.png" onClick=swap() id="switch-img">
         <span class="flag" id="flag2"></span>
         <select class="countries inputs" name="to_c" id="to_c"></select>
       </div><br>
@@ -35,7 +35,7 @@
           <span class="convert">Convert</span>
         </button><br>
   
-        <button    name="history" class="btns">
+        <button name="history" class="btns">
           <span class="history">History</span>
         </button>
       </div>

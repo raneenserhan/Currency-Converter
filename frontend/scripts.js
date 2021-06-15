@@ -75,3 +75,11 @@ function convert(){
       });
     }
   }
+
+  function swap(){
+    from_c=document.getElementById("from_c").value;
+    to_c=document.getElementById("to_c").value;
+    document.getElementById("from_c").value=to_c;
+    document.getElementById("to_c").value=from_c;
+    handleCountryChange();
+  }
